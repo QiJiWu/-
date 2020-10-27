@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>运算器</title>
+</head>
+<body>
+    <div class="content">
+        <input type="number">
+        <p>+</p>
+        <input type="number">
+        <p>=</p>
+        <input type="number">
+        <button class="sum" onclick="func2()">计算</button>
+    </div>
+</body>
+
+<script>
+
+    var func = x => {
+        alert(1);
+    }
+
+</script>
+
+
+<style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    input[type="number"] {
+        -moz-appearance: textfield;
+    }
+    input {
+        width: 50px;
+        height: 10px;
+    }
+    button {
+        margin-left: 1rem;
+        width: 50px;
+        height: 20px;
+        line-height: 15px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+</html>
